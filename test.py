@@ -1,6 +1,6 @@
 import unittest
 from datetime import datetime
-from main import app, db, Event
+from app.main import app, db, Event
 
 
 class EventAPITestCase(unittest.TestCase):
