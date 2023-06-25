@@ -24,3 +24,5 @@ curl -X GET -u admin:secret "http://localhost:5000/events/query?user_identity=As
 - You should get the stored event as the output
 - Note: I used a local Postgres database to store the events
 - To run the unittests simply do python run.py after ensuring the Flask App is running
+- For requirements.txt: pip install -r requirements.txt
+
