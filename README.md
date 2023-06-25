@@ -7,6 +7,7 @@ To deploy the code using a single command:
 Instructions for testing the solution using CURL:
 
 - Assuming your Flask application is running on localhost:5000
+  
 curl -X POST -u admin:secret -H "Content-Type: application/json" -d '{
     "event_type": "old_account",
     "user_identity": "Asad_Zaman",
